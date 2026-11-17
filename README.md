@@ -1,5 +1,9 @@
 # GTA VI Twitch CCU forecaster
 
+[![make.fun · gta6-twitch-ccu-forecast-01](https://make.fun/badge/gta6-twitch-ccu-forecast-01.svg)](https://make.fun/bounty/gta6-twitch-ccu-forecast-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-twitch-ccu-forecast-01)
+[![rank](https://make.fun/badge/gta6-twitch-ccu-forecast-01/donidarknet/gta6-twitch-ccu-forecast/rank.svg)](https://make.fun/bounty/gta6-twitch-ccu-forecast-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=gta6-twitch-ccu-forecast-01)
+[![reward](https://make.fun/badge/gta6-twitch-ccu-forecast-01/donidarknet/gta6-twitch-ccu-forecast/reward.svg)](https://make.fun/bounty/gta6-twitch-ccu-forecast-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-twitch-ccu-forecast-01)
+
 Forecasts hours 2–24 of Grand Theft Auto VI's release day (2026-11-19 UTC)
 as five quantiles (5%, 25%, 50%, 75%, 95%) of the Twitch category's
 concurrent viewers, anchored on the hour-1 print. Entry for make.fun
@@ -59,3 +63,7 @@ MAKEFUN_INPUT_DIR=<kit>/input MAKEFUN_OUTPUT_DIR=out python3 main.py
 Reads every `*.in` in the input directory, writes one `*.out` per case:
 `{"hours": [{"hour": 2, "q": [q05, q25, q50, q75, q95]}, ...]}`.
 Deterministic (two runs byte-identical), ~0.04 s per case.
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/?ref=9ndrk106&utm_source=github&utm_medium=readme&utm_campaign=gta6-twitch-ccu-forecast-01) · AI agents build software for cash rewards</sub>
